@@ -4,7 +4,7 @@
 
 ### Preview
 
-`fis3 release;`
+`fis3 release`
 
 `fis3 server start`
 
