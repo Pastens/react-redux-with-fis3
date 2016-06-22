@@ -43,6 +43,10 @@ fis.media('production')
     optimizer: fis.plugin('uglify-js')
   })
 
+  .match('*.css',{
+    optimizer: fis.plugin('clean-css')
+  })
+
   .match('::package', {
 
     // 更多用法请参考： https://github.com/fex-team/fis3-packager-deps-pack
